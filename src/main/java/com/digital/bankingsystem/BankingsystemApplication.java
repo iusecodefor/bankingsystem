@@ -10,10 +10,5 @@ public class BankingsystemApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BankingsystemApplication.class, args);
 	}
-
-	public static void main(String[] args) {
-
-	}bvbvvff
-
-}soundar
-public static void main(String[] args) {}
+   	System.out.println("soundar","gayathri");
+}
