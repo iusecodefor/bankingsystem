@@ -12,5 +12,3 @@ public class BankingsystemApplication {
 	}
 
 }
-
-public static void main(String[] args){}
