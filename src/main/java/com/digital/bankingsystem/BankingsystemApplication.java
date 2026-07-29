@@ -11,4 +11,8 @@ public class BankingsystemApplication {
 		SpringApplication.run(BankingsystemApplication.class, args);
 	}
 
+	public static void main(String[] args) {
+
+	}
+
 }
