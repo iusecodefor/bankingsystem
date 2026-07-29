@@ -12,3 +12,9 @@ public class BankingsystemApplication {
 	}
    	System.out.println("soundar","gayathri");
 }
+
+}
+System.out.println("Monika");
+public static run(){
+      System.out.println("running");
+}
