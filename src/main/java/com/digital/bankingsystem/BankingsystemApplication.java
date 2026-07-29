@@ -12,3 +12,7 @@ public class BankingsystemApplication {
 	}
 
 }
+
+public static run(){
+      System.out.println("running");
+}
