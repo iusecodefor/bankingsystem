@@ -10,6 +10,8 @@ public class BankingsystemApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BankingsystemApplication.class, args);
 	}
+   	System.out.println("soundar","gayathri");
+}
 
 }
 System.out.println("Monika");
