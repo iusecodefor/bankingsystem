@@ -1101,3 +1101,56 @@ Caused by: org.springframework.security.core.userdetails.UsernameNotFoundExcepti
 2026-06-14T22:40:27.602+05:30  INFO 34044 --- [bankingsystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-06-14T22:40:27.607+05:30  INFO 34044 --- [bankingsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2026-06-14T22:40:27.623+05:30  INFO 34044 --- [bankingsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-06T22:14:18.048+05:30  INFO 14096 --- [bankingsystem] [main] c.d.b.BankingsystemApplication           : Starting BankingsystemApplication using Java 25-loom with PID 14096 (C:\Users\SREENIVASAN\OneDrive\Desktop\New folder\bankingsystem\target\classes started by SREENIVASAN in C:\Users\SREENIVASAN\OneDrive\Desktop\New folder\bankingsystem)
+2026-08-06T22:14:18.055+05:30  INFO 14096 --- [bankingsystem] [main] c.d.b.BankingsystemApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-08-06T22:14:20.442+05:30  INFO 14096 --- [bankingsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-06T22:14:20.571+05:30  INFO 14096 --- [bankingsystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 4 JPA repository interfaces.
+2026-08-06T22:14:21.936+05:30  INFO 14096 --- [bankingsystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-06T22:14:21.973+05:30  INFO 14096 --- [bankingsystem] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-06T22:14:21.974+05:30  INFO 14096 --- [bankingsystem] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-06T22:14:22.114+05:30  INFO 14096 --- [bankingsystem] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3937 ms
+2026-08-06T22:14:22.723+05:30  INFO 14096 --- [bankingsystem] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-06T22:14:22.889+05:30  INFO 14096 --- [bankingsystem] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-08-06T22:14:24.042+05:30  INFO 14096 --- [bankingsystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-06T22:14:24.143+05:30  INFO 14096 --- [bankingsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-06T22:14:25.158+05:30  INFO 14096 --- [bankingsystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@291028d7
+2026-08-06T22:14:25.162+05:30  INFO 14096 --- [bankingsystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-06T22:14:25.369+05:30  WARN 14096 --- [bankingsystem] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-08-06T22:14:25.414+05:30  INFO 14096 --- [bankingsystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/digitalBanking]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: digitalBanking/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-06T22:14:27.645+05:30  INFO 14096 --- [bankingsystem] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-06T22:14:27.898+05:30  INFO 14096 --- [bankingsystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-06T22:14:28.030+05:30  INFO 14096 --- [bankingsystem] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-06T22:14:28.647+05:30  INFO 14096 --- [bankingsystem] [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-08-06T22:14:28.648+05:30  WARN 14096 --- [bankingsystem] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-08-06T22:14:28.993+05:30  WARN 14096 --- [bankingsystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-06T22:14:30.547+05:30  INFO 14096 --- [bankingsystem] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-08-06T22:14:30.729+05:30  INFO 14096 --- [bankingsystem] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-08-06T22:14:30.747+05:30  INFO 14096 --- [bankingsystem] [main] c.d.b.BankingsystemApplication           : Started BankingsystemApplication in 13.944 seconds (process running for 16.664)
+2026-08-06T22:14:44.319+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-06T22:14:44.320+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-06T22:14:44.325+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-08-06T22:14:46.078+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 950 ms
+2026-08-06T22:19:02.403+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-7] c.d.b.Controller.AdminController         : POST /api/admin - Adding new admin
+2026-08-06T22:19:02.419+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-7] c.d.bankingsystem.Service.AdminService   : Request received to add new admin with username: Sathya
+2026-08-06T22:19:03.094+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-7] c.d.bankingsystem.Service.AdminService   : Admin created successfully with id: 5
+2026-08-06T22:19:03.095+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-7] c.d.b.Controller.AdminController         : POST /api/admin - Admin added successfully with id: 5
+2026-08-06T22:22:33.650+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-3] c.d.b.Controller.AdminController         : POST /api/admin - Adding new admin
+2026-08-06T22:22:33.653+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-3] c.d.bankingsystem.Service.AdminService   : Request received to add new admin with username: Sathya
+2026-08-06T22:22:33.865+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-3] c.d.bankingsystem.Service.AdminService   : Admin created successfully with id: 1
+2026-08-06T22:22:33.867+05:30  INFO 14096 --- [bankingsystem] [http-nio-8080-exec-3] c.d.b.Controller.AdminController         : POST /api/admin - Admin added successfully with id: 1
+2026-08-06T22:24:38.191+05:30  INFO 14096 --- [bankingsystem] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-06T22:24:38.250+05:30  INFO 14096 --- [bankingsystem] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-06T22:24:38.346+05:30  INFO 14096 --- [bankingsystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-06T22:24:38.399+05:30  INFO 14096 --- [bankingsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-06T22:24:38.466+05:30  INFO 14096 --- [bankingsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
